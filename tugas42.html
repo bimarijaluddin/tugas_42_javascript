@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Belajar javascript - NIOMIC</title>
+	<!-- <link rel="stylesheet" href=""> -->
+	<style>
+		p{
+			font-size: 30px;
+		}
+	</style>
+</head>
+<body>
+	<p id = 'mouse' onmouseover="mouse_over()" onmouseout="mouse_out()">Dekatkan mouse disini</p>
+
+	<script type="text/javascript">
+		function mouse_over(){
+			document.getElementById('mouse').style.color = 'red';
+		}
+
+		function mouse_out(){
+			document.getElementById('mouse').style.color = 'black';
+		}
+	</script>
+</body>
+</html>
